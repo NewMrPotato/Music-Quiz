@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="main_AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #00A779; -fx-border-color: #ffffff;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rather.quiz.Controllers.MainController">
+   <children>
+      <Button fx:id="changeImage_Button" mnemonicParsing="false" style="-fx-background-color: #BF8830; -fx-border-color: #ffffff; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="Change image" textAlignment="CENTER" textFill="WHITE" wrapText="true" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="1060.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="590.0">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Button>
+      <VBox prefHeight="250.0" prefWidth="1000.0" style="-fx-background-color: #382F85; -fx-border-color: #ffffff; -fx-border-width: 3;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="125.0" spacing="60.0">
+               <children>
+                  <Button fx:id="answer0_Button" mnemonicParsing="false" prefHeight="85.0" prefWidth="175.0" style="-fx-background-color: #FF9C00; -fx-border-color: #ffffff; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="Answer" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Agency FB" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="answer1_Button" layoutX="420.0" layoutY="30.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="175.0" style="-fx-background-color: #FF9C00; -fx-border-color: #ffffff; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="Answer" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Agency FB" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="answer2_Button" layoutX="302.0" layoutY="30.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="175.0" style="-fx-background-color: #FF9C00; -fx-border-color: #ffffff; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="Answer" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Agency FB" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="answer3_Button" layoutX="537.0" layoutY="30.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="175.0" style="-fx-background-color: #FF9C00; -fx-border-color: #ffffff; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="Answer" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Agency FB" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="13.0" layoutY="13.0" prefHeight="125.0" spacing="60.0">
+               <children>
+                  <Button fx:id="answer4_Button" mnemonicParsing="false" prefHeight="85.0" prefWidth="175.0" style="-fx-background-color: #FF9C00; -fx-border-color: #ffffff; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="Answer" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Agency FB" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="answer5_Button" layoutX="420.0" layoutY="30.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="175.0" style="-fx-background-color: #FF9C00; -fx-border-color: #ffffff; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="Answer" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Agency FB" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="answer6_Button" layoutX="302.0" layoutY="30.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="175.0" style="-fx-background-color: #FF9C00; -fx-border-color: #ffffff; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="Answer" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Agency FB" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="answer7_Button" layoutX="537.0" layoutY="30.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="175.0" style="-fx-background-color: #FF9C00; -fx-border-color: #ffffff; -fx-border-width: 3; -fx-border-radius: 10; -fx-background-radius: 10;" text="Answer" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="Agency FB" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label fx:id="question_Label" style="-fx-background-color: #A66500; -fx-border-color: #ffffff; -fx-border-width: 3;" text="                Question?" textFill="WHITE" AnchorPane.bottomAnchor="310.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="437.0">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="AI_ImageView" fitHeight="350.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="424.0" AnchorPane.rightAnchor="425.0" AnchorPane.topAnchor="30.0" />
+   </children>
+</AnchorPane>
