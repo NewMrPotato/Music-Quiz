@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.rather</groupId>
-    <artifactId>Capital_School_Beta</artifactId>
+    <artifactId>Quiz</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Quiz</name>
 
