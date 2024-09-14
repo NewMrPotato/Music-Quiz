@@ -22,6 +22,9 @@ import javafx.stage.Stage;
 import javafx.stage.Window;
 
 public class MainController {
+
+    private final String path = "YOUR PATH";
+
     //---------------------------------------------------------------------------------------------------------
     private Scene scene;
     private Stage stage;
@@ -210,34 +213,34 @@ public class MainController {
             // You need to add your local path
             switch (numberOfQuestion) {
                 case 0 -> {
-                    AI_ImageView.setImage(new Image("questionImages/1.1.png"));
+                    AI_ImageView.setImage(new Image(path + "questionImages/1.1.png"));
                 }
                 case 1 -> {
-                    AI_ImageView.setImage(new Image("questionImages/2.1.png"));
+                    AI_ImageView.setImage(new Image(path + "questionImages/2.1.png"));
                 }
                 case 2 -> {
-                    AI_ImageView.setImage(new Image("questionImages/3.1.png"));
+                    AI_ImageView.setImage(new Image(path + "questionImages/3.1.png"));
                 }
                 case 3 -> {
-                    AI_ImageView.setImage(new Image("questionImages/4.1.png"));
+                    AI_ImageView.setImage(new Image(path + "questionImages/4.1.png"));
                 }
                 case 4 -> {
-                    AI_ImageView.setImage(new Image("questionImages/5.1.png"));
+                    AI_ImageView.setImage(new Image(path + "questionImages/5.1.png"));
                 }
                 case 5 -> {
-                    AI_ImageView.setImage(new Image("questionImages/6.1.png"));
+                    AI_ImageView.setImage(new Image(path + "questionImages/6.1.png"));
                 }
                 case 6 -> {
-                    AI_ImageView.setImage(new Image("questionImages/7.1.png"));
+                    AI_ImageView.setImage(new Image(path + "questionImages/7.1.png"));
                 }
                 case 7 -> {
-                    AI_ImageView.setImage(new Image("questionImages/8.1.png"));
+                    AI_ImageView.setImage(new Image(path + "questionImages/8.1.png"));
                 }
                 case 8 -> {
-                    AI_ImageView.setImage(new Image("questionImages/9.1.png"));
+                    AI_ImageView.setImage(new Image(path + "questionImages/9.1.png"));
                 }
                 case 9 -> {
-                    AI_ImageView.setImage(new Image("questionImages/10.1.png"));
+                    AI_ImageView.setImage(new Image(path + "questionImages/10.1.png"));
                 }
             }
         } else {
@@ -370,34 +373,34 @@ public class MainController {
                     // You need to add your local path
                     switch (numberOfQuestion) {
                         case 0 -> {
-                            aiInterface.setImageAI("questionImages/1.2.png", "questionImages/1.3.png");
+                            aiInterface.setImageAI(path + "questionImages/1.2.png", path + "questionImages/1.3.png");
                         }
                         case 1 -> {
-                            aiInterface.setImageAI("questionImages/2.2.png", "questionImages/2.3.png");
+                            aiInterface.setImageAI(path + "questionImages/2.2.png", path + "questionImages/2.3.png");
                         }
                         case 2 -> {
-                            aiInterface.setImageAI("questionImages/3.2.png", "questionImages/3.3.png");
+                            aiInterface.setImageAI(path + "questionImages/3.2.png", path + "questionImages/3.3.png");
                         }
                         case 3 -> {
-                            aiInterface.setImageAI("questionImages/4.2.png", "questionImages/4.3.png");
+                            aiInterface.setImageAI(path + "questionImages/4.2.png", path + "questionImages/4.3.png");
                         }
                         case 4 -> {
-                            aiInterface.setImageAI("questionImages/5.2.png", "questionImages/5.3.png");
+                            aiInterface.setImageAI(path + "questionImages/5.2.png", path + "questionImages/5.3.png");
                         }
                         case 5 -> {
-                            aiInterface.setImageAI("questionImages/6.2.png", "questionImages/6.3.png");
+                            aiInterface.setImageAI(path + "questionImages/6.2.png", path + "questionImages/6.3.png");
                         }
                         case 6 -> {
-                            aiInterface.setImageAI("questionImages/7.2.png", "questionImages/7.3.png");
+                            aiInterface.setImageAI(path + "questionImages/7.2.png", path + "questionImages/7.3.png");
                         }
                         case 7 -> {
-                            aiInterface.setImageAI("questionImages/8.2.png", "questionImages/8.3.png");
+                            aiInterface.setImageAI(path + "questionImages/8.2.png", path + "questionImages/8.3.png");
                         }
                         case 8 -> {
-                            aiInterface.setImageAI("questionImages/9.3.png", "questionImages/9.2.png");
+                            aiInterface.setImageAI(path + "questionImages/9.3.png", path + "questionImages/9.2.png");
                         }
                         case 9 -> {
-                            aiInterface.setImageAI("questionImages/10.2.png", "questionImages/10.3.png");
+                            aiInterface.setImageAI(path + "questionImages/10.2.png", path + "questionImages/10.3.png");
                         }
                     }
                 }
