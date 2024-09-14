@@ -23,7 +23,7 @@ import javafx.stage.Window;
 
 public class MainController {
 
-    private final String path = "YOUR PATH";
+    private final String path = "PATH";
 
     //---------------------------------------------------------------------------------------------------------
     private Scene scene;
