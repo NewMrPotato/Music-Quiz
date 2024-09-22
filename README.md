@@ -16,8 +16,11 @@ ___
 
 ## Running
 
-- Firstly,
+- After the launch, the quiz will start immediately. You can choose the answer or change image
 
 ![1](images/readme/1.PNG)
 
+- After passing, you will see the result of the quiz and a button to restart it
+
+![2](images/readme/2.PNG)
 
